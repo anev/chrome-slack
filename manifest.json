@@ -1,0 +1,19 @@
+{
+  "name": "Send to Slack",
+  "description": "Select text and send it to Slack channel.",
+  "version": "0.1",
+  "author":"Andrei Evseev",
+  "permissions": [
+    "contextMenus",
+    "https://slack.com/api/*",
+    "storage"
+  ],
+  "icons": {
+          "256": "slack.png"
+        },
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["send2slack.js"]
+  },
+  "manifest_version": 2
+}

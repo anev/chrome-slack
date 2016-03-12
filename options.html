@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Send to Slack Options</title></head>
+<body>
+
+<label>
+  <strong>Slack token</strong><br>
+  <input size=60 id="slackToken" name="slackToken" value="">
+  <br>
+  <small>(you can get token <a target="_blanc" href="https://api.slack.com/docs/oauth-test-tokens">here</a>)</small>
+</label>
+<br><br>
+<label>
+  <strong>Channel</strong> (without #):<br>
+  <input id="channel" name="channel" value="">
+</label>
+
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>
